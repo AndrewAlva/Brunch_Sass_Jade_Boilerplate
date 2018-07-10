@@ -1,8 +1,8 @@
 # Brunch_Sass_Jade_Boilerplate
 
-First boilerplate orientated to use modules of HTML and CSS. 
+My first boilerplate oriented to use modules of HTML and CSS with Jade and SCSS.
 
-Include some libraries like jQuery, Bootstrap and TweenMax (GSAP).
+Include some libraries I use a lot for different projects like jQuery, Bootstrap Grid and TweenMax (GSAP).
 
 
 ## Getting to know Brunch
@@ -29,11 +29,20 @@ foo@bar:~$ git clone https://github.com/AndrewAlva/Brunch_Sass_Jade_Boilerplate.
 foo@bar:~$ npm install
 ```
 
-3. After that, you can run this code to get the final assets for production:
+And that's it; now you are able to work on this repo.
+
+Also, you can watch files and compile them live while you're working with this command:
+```console
+foo@bar:~$ brunch w -s --port 3000
+```
+The last number is the port where you'd like to view the page, you can use whatever you want: 8000, 1111, etc. For mor commands visit [Brunch documentation.](http://brunch.io/docs/commands)
+
+
+## Get final files for production
+
+When you finish editing the project, you can run this code to get the final assets for production:
 ```console
 foo@bar:~$ brunch build --production
 ```
 
-This builds minified files for production
-
-And that's it; now you are able to work on this repo.
+This builds minified files ready to upload to server.
