@@ -22,11 +22,11 @@ Thumbs.db
 # NPM packages folder.
 node_modules/
 
+# npm lock
+package-lock.json
+
 # Brunch folder for temporary files.
 tmp/
 
 # Brunch output folder.
 public/
-
-/node_modules
-/public
