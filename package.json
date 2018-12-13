@@ -13,6 +13,7 @@
     "auto-reload-brunch": "^2.7.1",
     "bootstrap": "^4",
     "brunch": "^2.10.17",
+    "brunch-static": "^1.2.3",
     "clean-css-brunch": "^2.10",
     "gsap": "^2.0.2",
     "html-brunch-static": "^1.4.1",
